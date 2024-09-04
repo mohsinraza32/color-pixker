@@ -1,0 +1,34 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#colorPicker {
+    margin-bottom: 20px;
+    padding:5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    height: 40px;
+    
+}
+
+#colorDisplay {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
